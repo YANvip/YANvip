@@ -1,0 +1,27 @@
+/* 极简版 app.wxss - 仅保留基础样式，避免语法错误 */
+page {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* 通用容器 */
+.container {
+  padding: 30rpx;
+}
+
+/* 基础文本 */
+.text-primary {
+  color: #4CAF50;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+/* 基础按钮 */
+.btn {
+  background-color: #9bf19d;
+  color: white;
+  padding: 20rpx 40rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  margin: 10rpx 0;
+}

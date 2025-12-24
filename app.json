@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/scan/scan",
+    "pages/bind-process/bind-process",
+    "pages/pet-select/pet-select",
+    "pages/add-pet/add-pet",
+    "pages/pet-detail/pet-detail",
+    "pages/public-pet-info/public-pet-info",
+    "pages/pets/pets",
+    "pages/mine/mine",
+    "pages/health/health",
+    "pages/health-add/health-add",
+    "pages/community/community",
+    "pages/community-post/community-post",
+    "pages/profile/profile",
+    "pages/edit-profile/edit-profile",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4CAF50",
+    "navigationBarTitleText": "智能宠物管家",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f5f5",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#4CAF50",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/health/health",
+        "text": "健康记录"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "宠物社区"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于宠物防丢失定位功能"
+    },
+    "scope.camera": {
+      "desc": "用于扫描二维码"
+    },
+    "scope.writePhotosAlbum": {
+      "desc": "用于保存宠物照片"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "chooseAddress"
+  ],
+  "useExtendedLib": {
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
+
+
+ 
